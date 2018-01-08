@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Website - IOT</title>
+  <script src="js/jquery-3.1.0.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/switch.css">
+  <link rel="stylesheet" href="css/scrollbar.css">
+  <link rel="stylesheet" href="css/fontface.css">
+  <script src="js/script.js" type="text/javascript" charset="utf-8" async defer></script>
+  <script src="js/parallax.js" type="text/javascript" charset="utf-8" async defer></script>
+
+</head>
+<body>
+
+<div class="back_page">
+  <a href="index.html">
+    กลับไปหน้าแรก
+  </a>
+</div>
+
+<div class="content_iot">
+  <div class="inner_content">
+  <h1>แนวคิด Internet of Things</h1>
+  <p>
+  แนวนิด Internet of Things นั้นถูกคิดขึ้นโดย Kevin Ashton ในปี 1999 ซึ่งเขาเริ่มต้นโครงการ  Auto-ID Center ที่มหาวิทยาลัย Massachusetts Institute of Technology หรือ MIT จากเทคโนโลยี RFID ที่จะทำให้เป็นมาตรฐานระดับโลกสำหรับ RFID Sensors ต่างๆที่จะเชื่อมต่อกันได้ ต่อมาในยุคหลังปี 2000 โลกมีอุปกรณ์อิเล็กทรอนิกส์ออกมาเป็นจำนวนมากและมีการใช้คำว่า Smart ซึ่งในที่นี้คือ smart device, smart grid, smart home, smart network, smart intelligent transportation ต่างๆเหล่านี้ล้วนมีโครงสร้างพื้นฐานที่สามารถเชื่อมต่อกับโลกอินเตอร์เน็ตได้ ซึ่งการเชื่อมต่อเหล่านั้นเองก็เลยมาเป็นแนวคิดที่ว่าอุปกรณ์เหล่านั้นก็ย่อมสามารถสื่อสารกันได้ด้วยเช่นกันโดยอาศัยตัว Sensor ในการสื่อสารถึงกัน นั่นแปลว่านอกจาก Smart devices ต่างๆจะเชื่อมต่ออินเตอร์เน็ตได้แล้วมันยังสามารถเชื่อมต่อไปยังอุปกรณ์ตัวอื่นได้ด้วยโดย Kevin นิยามมันไว้ตอนนั้นว่าเป็น “internet-like” หรือพูดง่ายๆก็คืออุปกณ์อิเล็กทรอนิกส์สามารถสื่อสารพูดคุยกันเองได้ ซึ่งศัพท์คำว่า “Things” ก็แทนอุปกณ์อิเล็กทรอนิกส์ที่กล่าวมาก่อนหน้านี้นั่นเอง
+  </p>
+
+  <p>
+    <img src="images/kevin-ashton-profile.jpg" alt="kevin">
+  </p>
+
+  <h1>
+    A wireless sensor network (WSN)
+  </h1>
+
+  <p>
+    ตัวแปลสำคัญสำหรับ Internet of Things ที่ใช้ในการสื่อสารนั้นไม่เพียงแต่ Internet network เพียงเท่านั้นแต่ยังมีตัวแปลอื่นเข้ามาเกี่ยวข้องอีกนั่นคือ Sensor node ต่างๆจำนวนมากที่ทำให้เกิด wireless sensor network (WSN) ให้กับอุปกรณ์ต่างๆสามารถเชื่อมต่อเข้ามาได้ ซึ่งเจ้า WSNs นี่เองสามารถตรวจจับปรากฏการณ์ต่างๆ (physical phenomena) ในเครือข่ายได้ด้วย ยกตัวอย่างเช่น แสง อุณหภูมิ ความดัน เป็นต้น เพื่อส่งค่าไปยังอุปกรณ์ในระบบให้ทำงานหรือสั่งงานอื่นๆต่อไป
+  </p>
+
+  <p>
+    <img src="images/sensor_network_big.jpg" alt="WSN">
+  </p>
+
+
+  <h1>Access Technology</h1>
+  <p>
+    การพัฒนา Internet of Things นั้นนอกจากจะพัฒนาเทคโนโลยีในฝั่ง Hardware ได้แก่ processors, radios และ sensors ซึ่งจะถูกรวมเข้าด้วยกันเรียกว่า a single chip หรือ system on a chip (SoC) แล้วก็ยังพัฒนา WSN ไปพร้อมๆกันด้วย และเมื่อพูดถึงการเชื่อมต่อปัจจุบันได้มีการพัฒนาเทคโนโลยีสำหรับการเชื่อมต่อสำหรับ Internet of Things หรือ Access technology มีอยู่ 3 ตัวได้แก่
+  </p>
+
+  <li>1.  Bluetooth 4.0</li>
+  <li>2.  IEEE 802.15.4e</li>
+  <li>3.  WLAN IEEE 802.11™ (Wi-Fi)</li>
+  <p>
+    โดยในแต่ละ Access technologies นั้นมีการส่งข้อมูลที่แตกต่างกันดังนี้
+  </p>
+
+  <p>
+    <img src="images/access.png" alt="Access Technology">
+  </p>
+  
+  <h1>
+    Gateway Sensor Nodes
+  </h1>
+
+  <p>
+    เมื่อมีโครงข่าย Sensor nodes แล้วก็จำเป็นจะต้องมี Gateway Sensor Nodes เพื่อจะเชื่อมต่อไปยังโลกอินเตอร์เน็ตด้วย โดยตัว Gateway นี้จะทำหน้าที่เชื่อมต่อไปยังเครือข่าย Internet ให้อุปกรณ์ทั้งหมดในโครงข่าย Sensor nodes ทั้งหมดส่งข้อมูลเข้าสู่อินเตอร์เน็ตได้นั่นเอง และเจ้า Gateway ที่ว่านี้ก็จะอยู่ภายใต้ Local network ซึ่งจะมีการกำหนดกันต่อไปว่า Gateway ภายใต้ Local network ที่ว่านั้นจะให้เชื่อมต่อไปยัง Internet ได้ด้วยหรือไม่ถ้าไม่ได้อุปกรณ์ที่เชื่อมเข้ามาใน Gateway ก็อาจจะสื่อสารกันได้เฉพาะภายใน Local network เองได้เท่านั้น
+  </p>
+
+  <p>
+    <img src="images/wireless-sensor-network.jpg" alt="WSN">
+  </p>
+
+  <p>
+    <img src="images/internet-of-things.jpg" alt="WSN">
+  </p>
+
+  <h1>
+    แบ่งกลุ่ม Internet of Things
+  </h1>
+
+  <p>
+    ปัจจุบันมีการแบ่งกลุ่ม Internet of Things ออกตามตลาดการใช้งานเป็น 2 กลุ่มได้แก่
+  </p>
+
+  <li>Industrial IoT
+คือแบ่งจาก local network ที่มีหลายเทคโนโลยีที่แตกต่างกันในโครงข่าย Sensor nodes โดยตัวอุปกรณ์ IoT Device ในกลุ่มนี้จะเชื่อมต่อแบบ IP network  เพื่อเข้าสู่อินเตอร์เน็ต</li>
+  <li>
+    Commercial IoT
+คือแบ่งจาก local communication ที่เป็น Bluetooth หรือ Ethernet (wired or wireless) โดยตัวอุปกรณ์ IoT Device ในกลุ่มนี้จะสื่อสารภายในกลุ่ม Sensor nodes เดียวกันเท่านั้นหรือเป็นแบบ local devices เพียงอย่างเดียวอาจไม่ได้เชื่อมสู่อินเตอร์เน็ต
+  </li>
+
+  <p>
+    <img src="images/ibm-model-for-the-internet-of-things-iot.jpg" alt="Internet of Things">
+  </p>
+
+  <h1>
+    IPv6 คือส่วนสำคัญของ Internet of Things
+  </h1>
+
+  <p>
+    ตัวอุปกรณ์ IoT devices ต่างๆนั้นจะเป็นจะต้องมีหมายเลขระบุเพื่อให้ใช้ในการสื่อสารเปลี่ยนเสมือนที่อยู่บ้านของเรานั่นเอง และการที่จะทำให้อุปกรณ์เหล่านั้นที่มีอยู่เป็นจำนวนมาก(รวมถึงอนาคตที่จะผลิตกันออกมา) จำเป็นจะต้องใช้ IP Address vesion 6 หรือ IPv6 มากำกับเพื่อให้ได้หมายเลขที่ไม่ซ้ำกันและต้องใช้ได้ทั้ง
+  </p>
+
+  <li>
+    <b>IoT network</b> ที่เป็น LAN, PAN, และ BAN: Body Area Network หรือการสื่อสารของตัว Sensor กับร่างกายมนุษย์
+  </li>
+  <li>
+    <b>Internet network</b> (protocols)  ที่เป็น IP, UDP, TCP, SSL, HTTP, HTTPS, และอื่นๆ
+  </li>
+
+  <p>
+    และที่กล่าวมาทั้งหมดคือส่วนสำคัญต่างๆของ Internet of Things ที่กำลังเกิดขึ้นและเป็นเทรนด์ที่กำลังมาแรงอยู่ในขณะนี้ หวังว่าบทความนี้จะช่วยให้หลายคนเข้าใจภาพของ IoT ได้ดีขึ้น สิ่งสำคัญคือศัพท์คำนี้จึงไม่ได้หมายถึง Smart device อย่าง นาฬิกาอัจฉริยะ อย่าง Apple Watch หรือสายรัดข้อมือเพื่อสุขภาพเท่านั้น แต่มันยังครอบคลุมไปถึงอุปกรณ์ต่างๆอีกหลากหลายล้านตัวกว้างไกลไปยังหลากหลายอุตสาหกรรมอีกด้วย โดยในอนาคตคุณจะได้เห็น ไมโครเวฟคุยกับตู้เย็นให้สั่งอาหารมาเติม เครื่องซักผ้าคุยกับทีวีบอกคุณว่าผ้าซักเสร็จแล้ว สายรัดข้อมือจะคุยกับรถพยาบาลแจ้งให้ไปรับตัวผู้ป่วยที่กำลังหัวใจวาย เหล่านี้คืออนาคตของ Internet of Things ที่สิ่งต่างๆกำลังจะคุยกันได้
+  </p>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="footer" class="footer" >
+  <div class="inner-footer">
+    <div class="block_f1 block_after1">
+      <h1>About Us <span>คณะผู้จัดทำ</span></h1>
+
+    </div>
+
+    <div class="block_f1 block_after2">
+      <h1>Follow us <span>ติดตามเรา</span></h1>
+
+    </div>
+
+    <div class="block_f1 block_after3">
+      <h1>Secured By<span>หฟก</span></h1>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
